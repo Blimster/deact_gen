@@ -1,0 +1,946 @@
+{
+  "events": {
+    "click": "MouseEvent"
+  },
+  "attributes": {
+    "accept": {
+      "type": "string",
+      "global": false
+    },
+    "accept-charset": {
+      "type": "string",
+      "global": false
+    },
+    "accesskey": {
+      "type": "string",
+      "global": true
+    },
+    "action": {
+      "type": "string",
+      "global": false
+    },
+    "align": {
+      "type": "string",
+      "global": false
+    },
+    "alt": {
+      "type": "string",
+      "global": false
+    },
+    "async": {
+      "type": "string",
+      "global": false
+    },
+    "autocomplete": {
+      "type": "string",
+      "global": false
+    },
+    "autofocus": {
+      "type": "string",
+      "global": false
+    },
+    "autoplay": {
+      "type": "null",
+      "global": false
+    },
+    "autosave": {
+      "type": "string",
+      "global": false
+    },
+    "bgcolor": {
+      "type": "string",
+      "global": false
+    },
+    "border": {
+      "type": "string",
+      "global": false
+    },
+    "buffered": {
+      "type": "string",
+      "global": false
+    },
+    "challenge": {
+      "type": "string",
+      "global": false
+    },
+    "charset": {
+      "type": "string",
+      "global": false
+    },
+    "checked": {
+      "type": "string",
+      "global": false
+    },
+    "cite": {
+      "type": "string",
+      "global": false
+    },
+    "class": {
+      "type": "string",
+      "alternativeName": "className",
+      "global": true
+    },
+    "code": {
+      "type": "string",
+      "global": false
+    },
+    "codebase": {
+      "type": "string",
+      "global": false
+    },
+    "color": {
+      "type": "string",
+      "global": false
+    },
+    "cols": {
+      "type": "string",
+      "global": false
+    },
+    "colspan": {
+      "type": "string",
+      "global": false
+    },
+    "content": {
+      "type": "string",
+      "global": false
+    },
+    "contenteditable": {
+      "type": "bool",
+      "global": true
+    },
+    "contextmenu": {
+      "type": "string",
+      "global": true
+    },
+    "controls": {
+      "type": "string",
+      "global": false
+    },
+    "coords": {
+      "type": "string",
+      "global": false
+    },
+    "crossorigin": {
+      "type": "string",
+      "global": false
+    },
+    "data": {
+      "type": "string",
+      "global": false
+    },
+    "datetime": {
+      "type": "string",
+      "global": false
+    },
+    "default": {
+      "type": "string",
+      "global": false
+    },
+    "defer": {
+      "type": "string",
+      "global": false
+    },
+    "dir": {
+      "type": "string",
+      "global": true
+    },
+    "dirname": {
+      "type": "string",
+      "global": false
+    },
+    "disabled": {
+      "type": "string",
+      "global": false
+    },
+    "download": {
+      "type": "string",
+      "global": false
+    },
+    "draggable": {
+      "type": "bool",
+      "global": true
+    },
+    "dropzone": {
+      "type": "string",
+      "global": true
+    },
+    "enctype": {
+      "type": "string",
+      "global": false
+    },
+    "for": {
+      "type": "string",
+      "global": false
+    },
+    "form": {
+      "type": "string",
+      "global": false
+    },
+    "formaction": {
+      "type": "string",
+      "global": false
+    },
+    "headers": {
+      "type": "string",
+      "global": false
+    },
+    "height": {
+      "type": "string",
+      "global": false
+    },
+    "hidden": {
+      "type": "string",
+      "global": true
+    },
+    "high": {
+      "type": "string",
+      "global": false
+    },
+    "href": {
+      "type": "string",
+      "global": false
+    },
+    "hreflang": {
+      "type": "string",
+      "global": false
+    },
+    "http-equiv": {
+      "type": "string",
+      "global": false,
+      "alternativeName": "httpEquiv"
+    },
+    "icon": {
+      "type": "string",
+      "global": false
+    },
+    "id": {
+      "type": "string",
+      "global": true
+    },
+    "integrity": {
+      "type": "string",
+      "global": false
+    },
+    "ismap": {
+      "type": "string",
+      "global": false
+    },
+    "itemprop": {
+      "type": "string",
+      "global": true
+    },
+    "keytype": {
+      "type": "string",
+      "global": false
+    },
+    "kind": {
+      "type": "string",
+      "global": false
+    },
+    "label": {
+      "type": "string",
+      "global": false
+    },
+    "lang": {
+      "type": "string",
+      "global": true
+    },
+    "language": {
+      "type": "string",
+      "global": false
+    },
+    "list": {
+      "type": "string",
+      "global": false
+    },
+    "loop": {
+      "type": "string",
+      "global": false
+    },
+    "low": {
+      "type": "string",
+      "global": false
+    },
+    "manifest": {
+      "type": "string",
+      "global": false
+    },
+    "max": {
+      "type": "string",
+      "global": false
+    },
+    "maxlength": {
+      "type": "string",
+      "global": false
+    },
+    "media": {
+      "type": "string",
+      "global": false
+    },
+    "method": {
+      "type": "string",
+      "global": false
+    },
+    "min": {
+      "type": "string",
+      "global": false
+    },
+    "multiple": {
+      "type": "string",
+      "global": false
+    },
+    "muted": {
+      "type": "string",
+      "global": false
+    },
+    "name": {
+      "type": "string",
+      "global": false
+    },
+    "novalidate": {
+      "type": "string",
+      "global": false
+    },
+    "open": {
+      "type": "string",
+      "global": false
+    },
+    "optimum": {
+      "type": "string",
+      "global": false
+    },
+    "pattern": {
+      "type": "string",
+      "global": false
+    },
+    "ping": {
+      "type": "string",
+      "global": false
+    },
+    "placeholder": {
+      "type": "string",
+      "global": false
+    },
+    "poster": {
+      "type": "string",
+      "global": false
+    },
+    "preload": {
+      "type": "string",
+      "global": false
+    },
+    "radiogroup": {
+      "type": "string",
+      "global": false
+    },
+    "readonly": {
+      "type": "string",
+      "global": false
+    },
+    "rel": {
+      "type": "string",
+      "global": false
+    },
+    "required": {
+      "type": "string",
+      "global": false
+    },
+    "reversed": {
+      "type": "string",
+      "global": false
+    },
+    "rows": {
+      "type": "string",
+      "global": false
+    },
+    "rowspan": {
+      "type": "string",
+      "global": false
+    },
+    "sandbox": {
+      "type": "string",
+      "global": false
+    },
+    "scope": {
+      "type": "string",
+      "global": false
+    },
+    "scoped": {
+      "type": "string",
+      "global": false
+    },
+    "seamless": {
+      "type": "string",
+      "global": false
+    },
+    "selected": {
+      "type": "string",
+      "global": false
+    },
+    "shape": {
+      "type": "string",
+      "global": false
+    },
+    "size": {
+      "type": "string",
+      "global": false
+    },
+    "sizes": {
+      "type": "string",
+      "global": false
+    },
+    "slot": {
+      "type": "string",
+      "global": true
+    },
+    "spellcheck": {
+      "type": "bool",
+      "global": true
+    },
+    "src": {
+      "type": "string",
+      "global": false
+    },
+    "srcdoc": {
+      "type": "string",
+      "global": false
+    },
+    "srclang": {
+      "type": "string",
+      "global": false
+    },
+    "srcset": {
+      "type": "string",
+      "global": false
+    },
+    "start": {
+      "type": "string",
+      "global": false
+    },
+    "step": {
+      "type": "string",
+      "global": false
+    },
+    "style": {
+      "type": "string",
+      "global": true
+    },
+    "summary": {
+      "type": "string",
+      "global": false
+    },
+    "tabindex": {
+      "type": "int",
+      "global": true
+    },
+    "target": {
+      "type": "string",
+      "global": false
+    },
+    "title": {
+      "type": "string",
+      "global": true
+    },
+    "type": {
+      "type": "string",
+      "global": false
+    },
+    "usemap": {
+      "type": "string",
+      "global": false
+    },
+    "value": {
+      "type": "string",
+      "global": false
+    },
+    "volume": {
+      "type": "double",
+      "global": false
+    },
+    "width": {
+      "type": "string",
+      "global": false
+    },
+    "wrap": {
+      "type": "string",
+      "global": false
+    }
+  },
+  "elements": {
+    "a": {
+      "attributes": [
+        "href",
+        "target",
+        "rel"
+      ]
+    },
+    "abbr": {
+      "attributes": []
+    },
+    "address": {
+      "attributes": []
+    },
+    "area": {
+      "attributes": [
+        "shape",
+        "coords",
+        "href"
+      ]
+    },
+    "article": {
+      "attributes": []
+    },
+    "aside": {
+      "attributes": []
+    },
+    "audio": {
+      "attributes": [
+        "src",
+        "volume",
+        "autoplay",
+        "controls",
+        "loop",
+        "muted",
+        "preload"
+      ]
+    },
+    "b": {
+      "attributes": []
+    },
+    "base": {
+      "attributes": [
+        "href",
+        "target"
+      ]
+    },
+    "bdi": {
+      "attributes": []
+    },
+    "bdo": {
+      "attributes": []
+    },
+    "blockquote": {
+      "attributes": [
+        "cite"
+      ]
+    },
+    "body": {
+      "attributes": []
+    },
+    "br": {
+      "attributes": []
+    },
+    "button": {
+      "attributes": [
+        "name",
+        "value",
+        "type",
+        "disabled",
+        "autofocus"
+      ]
+    },
+    "canvas": {
+      "attributes": [
+        "height",
+        "width"
+      ]
+    },
+    "caption": {
+      "attributes": []
+    },
+    "cite": {
+      "attributes": []
+    },
+    "code": {
+      "attributes": []
+    },
+    "col": {
+      "attributes": [
+        "span"
+      ]
+    },
+    "colgroup": {
+      "attributes": []
+    },
+    "data": {
+      "attributes": [
+        "value"
+      ]
+    },
+    "datalist": {
+      "attributes": []
+    },
+    "dd": {
+      "attributes": []
+    },
+    "del": {
+      "attributes": [
+        "cite",
+        "datetime"
+      ]
+    },
+    "details": {
+      "attributes": [
+        "open"
+      ]
+    },
+    "dfn": {
+      "attributes": []
+    },
+    "dialog": {
+      "attributes": [
+        "open"
+      ]
+    },
+    "div": {
+      "attributes": []
+    },
+    "dl": {
+      "attributes": []
+    },
+    "dt": {
+      "attributes": []
+    },
+    "em": {
+      "attributes": []
+    },
+    "embed": {
+      "attributes": [
+        "src",
+        "type",
+        "height",
+        "width"
+      ]
+    },
+    "fieldset": {
+      "attributes": [
+        "disabled"
+      ]
+    },
+    "figcaption": {
+      "attributes": []
+    },
+    "figure": {
+      "attributes": []
+    },
+    "footer": {
+      "attributes": []
+    },
+    "form": {
+      "attributes": [
+        "action",
+        "method",
+        "name",
+        "autocomplete",
+        "target",
+        "enctype",
+        "novalidate"
+      ]
+    },
+    "h1": {
+      "attributes": []
+    },
+    "h2": {
+      "attributes": []
+    },
+    "h3": {
+      "attributes": []
+    },
+    "h4": {
+      "attributes": []
+    },
+    "h5": {
+      "attributes": []
+    },
+    "h6": {
+      "attributes": []
+    },
+    "head": {
+      "attributes": []
+    },
+    "header": {
+      "attributes": []
+    },
+    "hgroup": {
+      "attributes": []
+    },
+    "hr": {
+      "attributes": []
+    },
+    "html": {
+      "attributes": []
+    },
+    "i": {
+      "attributes": []
+    },
+    "link": {
+      "attributes": [
+        "href",
+        "rel",
+        "type"
+      ]
+    },
+    "iframe": {
+      "attributes": [
+        "src",
+        "allowfullscreen",
+        "height",
+        "width"
+      ]
+    },
+    "main": {
+      "attributes": []
+    },
+    "map": {
+      "attributes": [
+        "name"
+      ]
+    },
+    "mark": {
+      "attributes": []
+    },
+    "meta": {
+      "attributes": [
+        "charset",
+        "http-equiv",
+        "name",
+        "content"
+      ]
+    },
+    "meter": {
+      "attributes": [
+        "value",
+        "max",
+        "min",
+        "low",
+        "high"
+      ]
+    },
+    "nav": {
+      "attributes": []
+    },
+    "noframes": {
+      "attributes": []
+    },
+    "noscript": {
+      "attributes": []
+    },
+    "object": {
+      "attributes": [
+        "data",
+        "type",
+        "height",
+        "width"
+      ]
+    },
+    "ol": {
+      "attributes": [
+        "type",
+        "start",
+        "reversed"
+      ]
+    },
+    "optgroup": {
+      "attributes": [
+        "label",
+        "disabled"
+      ]
+    },
+    "option": {
+      "attributes": [
+        "value",
+        "label",
+        "disabled",
+        "selected"
+      ]
+    },
+    "output": {
+      "attributes": [
+        "name"
+      ]
+    },
+    "p": {
+      "attributes": []
+    },
+    "param": {
+      "attributes": [
+        "name",
+        "value"
+      ]
+    },
+    "picture": {
+      "attributes": []
+    },
+    "pre": {
+      "attributes": []
+    },
+    "progress": {
+      "attributes": [
+        "value",
+        "max"
+      ]
+    },
+    "q": {
+      "attributes": [
+        "cite"
+      ]
+    },
+    "rp": {
+      "attributes": []
+    },
+    "rt": {
+      "attributes": []
+    },
+    "rtc": {
+      "attributes": []
+    },
+    "ruby": {
+      "attributes": []
+    },
+    "s": {
+      "attributes": []
+    },
+    "samp": {
+      "attributes": []
+    },
+    "script": {
+      "attributes": [
+        "src",
+        "type",
+        "async"
+      ]
+    },
+    "section": {
+      "attributes": []
+    },
+    "select": {
+      "attributes": [
+        "name",
+        "size",
+        "multiple",
+        "autofocus",
+        "disabled",
+        "required"
+      ]
+    },
+    "slot": {
+      "attributes": []
+    },
+    "small": {
+      "attributes": []
+    },
+    "source": {
+      "attributes": [
+        "src",
+        "srcset",
+        "sizes",
+        "type",
+        "media"
+      ]
+    },
+    "span": {
+      "attributes": []
+    },
+    "strong": {
+      "attributes": []
+    },
+    "style": {
+      "attributes": [
+        "type"
+      ]
+    },
+    "sub": {
+      "attributes": []
+    },
+    "summary": {
+      "attributes": []
+    },
+    "sup": {
+      "attributes": []
+    },
+    "table": {
+      "attributes": []
+    },
+    "tbody": {
+      "attributes": []
+    },
+    "td": {
+      "attributes": [
+        "colspan",
+        "rowspan"
+      ]
+    },
+    "template": {
+      "attributes": []
+    },
+    "textarea": {
+      "attributes": [
+        "name",
+        "message",
+        "autocomplete",
+        "minLength",
+        "maxlength",
+        "placeholder",
+        "cols",
+        "rows",
+        "wrap",
+        "disabled",
+        "required",
+        "autofocus",
+        "readonly",
+        "spellcheck"
+      ]
+    },
+    "tfoot": {
+      "attributes": []
+    },
+    "th": {
+      "attributes": [
+        "colspan",
+        "rowspan"
+      ]
+    },
+    "thead": {
+      "attributes": []
+    },
+    "time": {
+      "attributes": [
+        "datetime"
+      ]
+    },
+    "title": {
+      "attributes": []
+    },
+    "tr": {
+      "attributes": []
+    },
+    "track": {
+      "attributes": []
+    },
+    "u": {
+      "attributes": []
+    },
+    "ul": {
+      "attributes": []
+    },
+    "var": {
+      "attributes": []
+    },
+    "video": {
+      "attributes": [
+        "src",
+        "autoplay",
+        "controls",
+        "loop",
+        "muted",
+        "preload",
+        "poster",
+        "height",
+        "width"
+      ]
+    },
+    "wbr": {
+      "attributes": []
+    }
+  }
+}
