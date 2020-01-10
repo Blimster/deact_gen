@@ -3,6 +3,10 @@
     "click": "MouseEvent"
   },
   "attributes": {
+    "abbr": {
+      "type": "string",
+      "global": false
+    },
     "accept": {
       "type": "string",
       "global": false
@@ -19,7 +23,11 @@
       "type": "string",
       "global": false
     },
-    "align": {
+    "allowfullscreen": {
+      "type": "string",
+      "global": false
+    },
+    "allowpaymentrequest": {
       "type": "string",
       "global": false
     },
@@ -43,23 +51,7 @@
       "type": "null",
       "global": false
     },
-    "autosave": {
-      "type": "string",
-      "global": false
-    },
-    "bgcolor": {
-      "type": "string",
-      "global": false
-    },
     "border": {
-      "type": "string",
-      "global": false
-    },
-    "buffered": {
-      "type": "string",
-      "global": false
-    },
-    "challenge": {
       "type": "string",
       "global": false
     },
@@ -80,18 +72,6 @@
       "alternativeName": "className",
       "global": true
     },
-    "code": {
-      "type": "string",
-      "global": false
-    },
-    "codebase": {
-      "type": "string",
-      "global": false
-    },
-    "color": {
-      "type": "string",
-      "global": false
-    },
     "cols": {
       "type": "string",
       "global": false
@@ -106,10 +86,6 @@
     },
     "contenteditable": {
       "type": "bool",
-      "global": true
-    },
-    "contextmenu": {
-      "type": "string",
       "global": true
     },
     "controls": {
@@ -160,10 +136,6 @@
       "type": "bool",
       "global": true
     },
-    "dropzone": {
-      "type": "string",
-      "global": true
-    },
     "enctype": {
       "type": "string",
       "global": false
@@ -177,6 +149,22 @@
       "global": false
     },
     "formaction": {
+      "type": "string",
+      "global": false
+    },
+    "formenctype": {
+      "type": "string",
+      "global": false
+    },
+    "formmethod": {
+      "type": "string",
+      "global": false
+    },
+    "formnovalidate": {
+      "type": "string",
+      "global": false
+    },
+    "formtarget": {
       "type": "string",
       "global": false
     },
@@ -209,27 +197,11 @@
       "global": false,
       "alternativeName": "httpEquiv"
     },
-    "icon": {
-      "type": "string",
-      "global": false
-    },
     "id": {
       "type": "string",
       "global": true
     },
-    "integrity": {
-      "type": "string",
-      "global": false
-    },
     "ismap": {
-      "type": "string",
-      "global": false
-    },
-    "itemprop": {
-      "type": "string",
-      "global": true
-    },
-    "keytype": {
       "type": "string",
       "global": false
     },
@@ -245,11 +217,11 @@
       "type": "string",
       "global": true
     },
-    "language": {
+    "list": {
       "type": "string",
       "global": false
     },
-    "list": {
+    "longdesc": {
       "type": "string",
       "global": false
     },
@@ -285,6 +257,10 @@
       "type": "string",
       "global": false
     },
+    "minlength": {
+      "type": "string",
+      "global": false
+    },
     "multiple": {
       "type": "string",
       "global": false
@@ -294,6 +270,10 @@
       "global": false
     },
     "name": {
+      "type": "string",
+      "global": false
+    },
+    "nonce": {
       "type": "string",
       "global": false
     },
@@ -313,10 +293,6 @@
       "type": "string",
       "global": false
     },
-    "ping": {
-      "type": "string",
-      "global": false
-    },
     "placeholder": {
       "type": "string",
       "global": false
@@ -329,11 +305,11 @@
       "type": "string",
       "global": false
     },
-    "radiogroup": {
+    "readonly": {
       "type": "string",
       "global": false
     },
-    "readonly": {
+    "referrerpolicy": {
       "type": "string",
       "global": false
     },
@@ -342,6 +318,10 @@
       "global": false
     },
     "required": {
+      "type": "string",
+      "global": false
+    },
+    "rev": {
       "type": "string",
       "global": false
     },
@@ -365,14 +345,6 @@
       "type": "string",
       "global": false
     },
-    "scoped": {
-      "type": "string",
-      "global": false
-    },
-    "seamless": {
-      "type": "string",
-      "global": false
-    },
     "selected": {
       "type": "string",
       "global": false
@@ -389,9 +361,9 @@
       "type": "string",
       "global": false
     },
-    "slot": {
+    "span": {
       "type": "string",
-      "global": true
+      "global": false
     },
     "spellcheck": {
       "type": "bool",
@@ -425,10 +397,6 @@
       "type": "string",
       "global": true
     },
-    "summary": {
-      "type": "string",
-      "global": false
-    },
     "tabindex": {
       "type": "int",
       "global": true
@@ -441,7 +409,15 @@
       "type": "string",
       "global": true
     },
+    "translate": {
+      "type": "string",
+      "global": false
+    },
     "type": {
+      "type": "string",
+      "global": false
+    },
+    "typemustmatch": {
       "type": "string",
       "global": false
     },
@@ -451,10 +427,6 @@
     },
     "value": {
       "type": "string",
-      "global": false
-    },
-    "volume": {
-      "type": "double",
       "global": false
     },
     "width": {
@@ -471,7 +443,11 @@
       "attributes": [
         "href",
         "target",
-        "rel"
+        "download",
+        "rel",
+        "hreflang",
+        "type",
+        "reffererpolicy"
       ]
     },
     "abbr": {
@@ -482,9 +458,16 @@
     },
     "area": {
       "attributes": [
-        "shape",
+        "alt",
         "coords",
-        "href"
+        "shape",
+        "href",
+        "target",
+        "download",
+        "rel",
+        "hreflang",
+        "type",
+        "referrerpolicy"
       ]
     },
     "article": {
@@ -496,12 +479,12 @@
     "audio": {
       "attributes": [
         "src",
-        "volume",
+        "crossorigin",
+        "preload",
         "autoplay",
-        "controls",
         "loop",
         "muted",
-        "preload"
+        "controls"
       ]
     },
     "b": {
@@ -532,11 +515,17 @@
     },
     "button": {
       "attributes": [
-        "name",
-        "value",
-        "type",
+        "autofocus",
         "disabled",
-        "autofocus"
+        "form",
+        "formaction",
+        "formenctype",
+        "formmethod",
+        "formnovalidate",
+        "formtarget",
+        "name",
+        "type",
+        "value"
       ]
     },
     "canvas": {
@@ -560,7 +549,9 @@
       ]
     },
     "colgroup": {
-      "attributes": []
+      "attributes": [
+        "span"
+      ]
     },
     "data": {
       "attributes": [
@@ -608,13 +599,15 @@
       "attributes": [
         "src",
         "type",
-        "height",
-        "width"
+        "width",
+        "height"
       ]
     },
     "fieldset": {
       "attributes": [
-        "disabled"
+        "disabled",
+        "form",
+        "name"
       ]
     },
     "figcaption": {
@@ -628,13 +621,14 @@
     },
     "form": {
       "attributes": [
+        "accept-charset",
         "action",
+        "autocomplete",
+        "enctype",
         "method",
         "name",
-        "autocomplete",
-        "target",
-        "enctype",
-        "novalidate"
+        "novalidate",
+        "target"
       ]
     },
     "h1": {
@@ -661,30 +655,75 @@
     "header": {
       "attributes": []
     },
-    "hgroup": {
-      "attributes": []
-    },
     "hr": {
       "attributes": []
     },
     "html": {
-      "attributes": []
+      "attributes": [
+        "manifest"
+      ]
     },
     "i": {
       "attributes": []
     },
-    "link": {
-      "attributes": [
-        "href",
-        "rel",
-        "type"
-      ]
-    },
     "iframe": {
       "attributes": [
         "src",
+        "srcdoc",
+        "name",
+        "sandbox",
         "allowfullscreen",
+        "width",
         "height",
+        "referrerpolicy"
+      ]
+    },
+    "img": {
+      "attributes": [
+        "alt",
+        "src",
+        "srcset",
+        "crossorigin",
+        "usemap",
+        "ismap",
+        "longdesc",
+        "width",
+        "height",
+        "referrerpolicy"
+      ]
+    },
+    "input": {
+      "attributes": [
+        "accept",
+        "alt",
+        "autocomplete",
+        "autofocus",
+        "checked",
+        "dirname",
+        "disabled",
+        "form",
+        "formaction",
+        "formenctype",
+        "formmethod",
+        "formnovalidate",
+        "formtarget",
+        "height",
+        "list",
+        "max",
+        "maxlength",
+        "min",
+        "minlength",
+        "multiple",
+        "name",
+        "pattern",
+        "placeholder",
+        "readonly",
+        "required",
+        "size",
+        "src",
+        "step",
+        "type",
+        "value",
         "width"
       ]
     },
