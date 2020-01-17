@@ -17,8 +17,8 @@ String _mapType(String inputType) {
   }
 }
 
-void generate(ElementDefinitions definitions) {
-  print('part of deact;');
+void generate(String name, ElementDefinitions definitions, void Function(Object object) print) {
+  print('part of deact_$name;');
   print('');
 
   definitions.elements.forEach((k, v) {
@@ -36,8 +36,11 @@ void generate(ElementDefinitions definitions) {
 
     v.attributes.forEach((a) {
       final attr = definitions.attributes[a];
-      if (attr == null || attr.global) {
-        throw StateError('attribute $a in element $k is not supported or is a global attribute!');
+      if (attr == null) {
+        throw StateError('attribute $a in element $k is not supported!');
+      }
+      if (attr.global) {
+        throw StateError('attribute $a in element $k is a global attribute!');
       }
       final name = attr.alternativeName != null && attr.alternativeName.trim().isNotEmpty ? attr.alternativeName : a;
       // print('${_mapType(attr.type)} $name, ');
@@ -57,7 +60,7 @@ void generate(ElementDefinitions definitions) {
       final name = k.alternativeName != null && k.alternativeName.trim().isNotEmpty ? k.alternativeName : v;
       if (k.global) {
         print('if($name != null) {');
-        print('attributes[\'$name\'] = $name;');
+        print('attributes[\'$v\'] = $name;');
         print('}');
       }
     });
@@ -68,7 +71,7 @@ void generate(ElementDefinitions definitions) {
       }
       final name = attr.alternativeName != null && attr.alternativeName.trim().isNotEmpty ? attr.alternativeName : a;
       print('if($name != null) {');
-      print('attributes[\'$name\'] = $name;');
+      print('attributes[\'$a\'] = $name;');
       print('}');
     });
 
@@ -79,7 +82,7 @@ void generate(ElementDefinitions definitions) {
       print('}');
     });
 
-    print('return Element._(\'$k\', key, attributes, listeners, children,);');
+    print('return el(\'$k\', key: key, attributes: attributes, listeners: listeners, children: children,);');
     print('}');
     print('');
   });

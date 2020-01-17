@@ -13,7 +13,8 @@
     },
     "accept-charset": {
       "type": "string",
-      "global": false
+      "global": false,
+      "alternativeName": "acceptCharset"
     },
     "accesskey": {
       "type": "string",
@@ -110,7 +111,8 @@
     },
     "default": {
       "type": "string",
-      "global": false
+      "global": false,
+      "alternativeName": "defaultTrack"
     },
     "defer": {
       "type": "string",
@@ -142,7 +144,8 @@
     },
     "for": {
       "type": "string",
-      "global": false
+      "global": false,
+      "alternativeName": "forId"
     },
     "form": {
       "type": "string",
@@ -447,7 +450,7 @@
         "rel",
         "hreflang",
         "type",
-        "reffererpolicy"
+        "referrerpolicy"
       ]
     },
     "abbr": {
@@ -727,6 +730,41 @@
         "width"
       ]
     },
+    "ins": {
+      "attributes": [
+        "cite",
+        "datetime"
+      ]
+    },
+    "kbd": {
+      "attributes": []
+    },
+    "label": {
+      "attributes": [
+        "for"
+      ]
+    },
+    "legend": {
+      "attributes": []
+    },
+    "li": {
+      "attributes": [
+        "value"
+      ]
+    },
+    "link": {
+      "attributes": [
+        "href",
+        "crossorigin",
+        "rel",
+        "media",
+        "referrerpolicy",
+        "nonce",
+        "hreflang",
+        "type",
+        "sizes"
+      ]
+    },
     "main": {
       "attributes": []
     },
@@ -740,25 +778,23 @@
     },
     "meta": {
       "attributes": [
-        "charset",
-        "http-equiv",
         "name",
-        "content"
+        "http-equiv",
+        "content",
+        "charset"
       ]
     },
     "meter": {
       "attributes": [
         "value",
-        "max",
         "min",
+        "max",
         "low",
-        "high"
+        "high",
+        "optimum"
       ]
     },
     "nav": {
-      "attributes": []
-    },
-    "noframes": {
       "attributes": []
     },
     "noscript": {
@@ -768,33 +804,38 @@
       "attributes": [
         "data",
         "type",
-        "height",
-        "width"
+        "typemustmatch",
+        "name",
+        "form",
+        "width",
+        "height"
       ]
     },
     "ol": {
       "attributes": [
-        "type",
+        "reversed",
         "start",
-        "reversed"
+        "type"
       ]
     },
     "optgroup": {
       "attributes": [
-        "label",
-        "disabled"
+        "disabled",
+        "label"
       ]
     },
     "option": {
       "attributes": [
-        "value",
-        "label",
         "disabled",
-        "selected"
+        "label",
+        "selected",
+        "value"
       ]
     },
     "output": {
       "attributes": [
+        "for",
+        "form",
         "name"
       ]
     },
@@ -824,6 +865,9 @@
         "cite"
       ]
     },
+    "rb": {
+      "attributes": []
+    },
     "rp": {
       "attributes": []
     },
@@ -846,7 +890,11 @@
       "attributes": [
         "src",
         "type",
-        "async"
+        "charset",
+        "async",
+        "defer",
+        "crossorigin",
+        "nonce"
       ]
     },
     "section": {
@@ -854,16 +902,15 @@
     },
     "select": {
       "attributes": [
-        "name",
-        "size",
-        "multiple",
+        "autocomplete",
         "autofocus",
         "disabled",
-        "required"
+        "form",
+        "multiple",
+        "name",
+        "required",
+        "size"
       ]
-    },
-    "slot": {
-      "attributes": []
     },
     "small": {
       "attributes": []
@@ -871,9 +918,9 @@
     "source": {
       "attributes": [
         "src",
+        "type",
         "srcset",
         "sizes",
-        "type",
         "media"
       ]
     },
@@ -885,6 +932,8 @@
     },
     "style": {
       "attributes": [
+        "media",
+        "nonce",
         "type"
       ]
     },
@@ -898,7 +947,9 @@
       "attributes": []
     },
     "table": {
-      "attributes": []
+      "attributes": [
+        "border"
+      ]
     },
     "tbody": {
       "attributes": []
@@ -906,7 +957,8 @@
     "td": {
       "attributes": [
         "colspan",
-        "rowspan"
+        "rowspan",
+        "headers"
       ]
     },
     "template": {
@@ -914,20 +966,19 @@
     },
     "textarea": {
       "attributes": [
-        "name",
-        "message",
-        "autocomplete",
-        "minLength",
-        "maxlength",
-        "placeholder",
-        "cols",
-        "rows",
-        "wrap",
-        "disabled",
-        "required",
         "autofocus",
+        "cols",
+        "dirname",
+        "disabled",
+        "form",
+        "maxlength",
+        "minlength",
+        "name",
+        "placeholder",
         "readonly",
-        "spellcheck"
+        "required",
+        "rows",
+        "wrap"
       ]
     },
     "tfoot": {
@@ -936,7 +987,10 @@
     "th": {
       "attributes": [
         "colspan",
-        "rowspan"
+        "rowspan",
+        "headers",
+        "scope",
+        "abbr"
       ]
     },
     "thead": {
@@ -954,7 +1008,13 @@
       "attributes": []
     },
     "track": {
-      "attributes": []
+      "attributes": [
+        "default",
+        "kind",
+        "label",
+        "src",
+        "srclang"
+      ]
     },
     "u": {
       "attributes": []
@@ -962,20 +1022,21 @@
     "ul": {
       "attributes": []
     },
-    "var": {
+    "variable": {
       "attributes": []
     },
     "video": {
       "attributes": [
         "src",
+        "crossorigin",
+        "poster",
+        "preload",
         "autoplay",
-        "controls",
         "loop",
         "muted",
-        "preload",
-        "poster",
-        "height",
-        "width"
+        "controls",
+        "width",
+        "height"
       ]
     },
     "wbr": {
