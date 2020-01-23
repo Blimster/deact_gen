@@ -1,6 +1,31 @@
 {
   "events": {
-    "click": "MouseEvent"
+    "abort": "UIEvent",
+    "blur": "FocusEvent",
+    "click": "MouseEvent",
+    "compositionend": "CompositionEvent",
+    "compositionstart": "CompositionEvent",
+    "compositionupdate": "CompositionEvent",
+    "dblclick": "MouseEvent",
+    "error": "UIEvent",
+    "focus": "FocusEvent",
+    "focusin": "FocusEvent",
+    "focusout": "FocusEvent",
+    "keydown": "KeyboardEvent",
+    "keyup": "KeyboardEvent",
+    "load": "UIEvent",
+    "mousedown": "MouseEvent",
+    "mouseenter": "MouseEvent",
+    "mouseleave": "MouseEvent",
+    "mousemove": "MouseEvent",
+    "mouseout": "MouseEvent",
+    "mouseover": "MouseEvent",
+    "mouseup": "MouseEvent",
+    "resize": "UIEvent",
+    "scroll": "UIEvent",
+    "select": "UIEvent",
+    "unload": "UIEvent",
+    "wheel": "WheelEvent"
   },
   "attributes": {
     "abbr": {
