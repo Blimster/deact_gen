@@ -24,6 +24,7 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
   definitions.elements.forEach((k, v) {
     print('Element $k({');
     print('Object key, ');
+    print('Ref<h.Element> ref, ');
 
     definitions.attributes.forEach((k, v) {
       if (v.global) {
@@ -48,7 +49,7 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
     });
 
     definitions.events.forEach((v, k) {
-      print('EventListener<$k> on$v, ');
+      print('EventListener<h.$k> on$v, ');
     });
 
     print('List<Node> children,');
@@ -82,7 +83,7 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
       print('}');
     });
 
-    print('return el(\'$k\', key: key, attributes: attributes, listeners: listeners, children: children,);');
+    print('return el(\'$k\', key: key, ref: ref, attributes: attributes, listeners: listeners, children: children,);');
     print('}');
     print('');
   });
