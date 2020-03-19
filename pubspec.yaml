@@ -1,6 +1,6 @@
 name: deact_gen
 description: A sample command-line application.
-version: 1.0.0
+version: 0.3.2
 homepage: https://github.com/blimster/deact_gen
 
 environment:

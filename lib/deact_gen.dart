@@ -22,7 +22,7 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
   print('');
 
   definitions.elements.forEach((k, v) {
-    print('Element $k({');
+    print('ElementNode $k({');
     print('Object key, ');
     print('Ref<h.Element> ref, ');
 
@@ -52,7 +52,7 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
       print('EventListener<h.$k> on$v, ');
     });
 
-    print('List<Node> children,');
+    print('Iterable<DeactNode> children,');
     print('}) {');
 
     print('final attributes = <String, Object>{};');
