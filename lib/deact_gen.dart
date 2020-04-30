@@ -1,22 +1,5 @@
 import 'model.dart';
 
-String _mapType(String inputType) {
-  switch (inputType) {
-    case 'string':
-      return 'String';
-    case 'bool':
-      return 'bool';
-    case 'int':
-      return 'int';
-    case 'double':
-      return 'double';
-    case 'null':
-      return 'Null';
-    default:
-      throw StateError('unsupported type $inputType!');
-  }
-}
-
 void generate(String name, ElementDefinitions definitions, void Function(Object object) print) {
   print('part of deact_$name;');
   print('');

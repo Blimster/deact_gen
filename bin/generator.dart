@@ -7,7 +7,7 @@ import 'package:resource/resource.dart';
 
 void main(List<String> arguments) async {
   final resource = Resource('package:deact_gen/${arguments[0]}.json');
-  final definitions = ElementDefinitions.fromJson(json.decode(await resource.readAsString()));
+  final definitions = ElementDefinitions.fromJson(json.decode(await resource.readAsString()) as Map<String, dynamic>);
 
   final lines = <String>[];
   void writer(Object object) {
