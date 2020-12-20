@@ -6,15 +6,15 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
 
   definitions.elements.forEach((k, v) {
     print('ElementNode $k({');
-    print('Object key, ');
-    print('Ref<h.Element> ref, ');
+    print('Object? key, ');
+    print('Ref<h.Element?>? ref, ');
 
     definitions.attributes.forEach((k, v) {
       if (v.global) {
         final attr = definitions.attributes[k];
         final name = attr.alternativeName != null && attr.alternativeName.trim().isNotEmpty ? attr.alternativeName : k;
         // print('${_mapType(attr.type)} $name, ');
-        print('String $name, ');
+        print('String? $name, ');
       }
     });
 
@@ -28,14 +28,14 @@ void generate(String name, ElementDefinitions definitions, void Function(Object 
       }
       final name = attr.alternativeName != null && attr.alternativeName.trim().isNotEmpty ? attr.alternativeName : a;
       // print('${_mapType(attr.type)} $name, ');
-      print('String $name, ');
+      print('String? $name, ');
     });
 
     definitions.events.forEach((v, k) {
-      print('EventListener<h.$k> on$v, ');
+      print('EventListener<h.$k>? on$v, ');
     });
 
-    print('Iterable<DeactNode> children,');
+    print('Iterable<DeactNode>? children,');
     print('}) {');
 
     print('final attributes = <String, Object>{};');
